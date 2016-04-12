@@ -1,4 +1,6 @@
 compute = function(input_string){
+  #Do simple arithmatic from strings
+   #eg. compute('5 + 2') -> 7
   values = unlist(strsplit(input_string, ' '))   
   #split string at spaces into a vector
   num0 = as.integer(values[1])   #1st chr -> integer called num0
