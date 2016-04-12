@@ -10,6 +10,6 @@ compute = function(input_string){
     return(num0 - num1)
   } else {
     print("unknown operator!")
-    return(NA)
+    return('N/A')
   }
 }
